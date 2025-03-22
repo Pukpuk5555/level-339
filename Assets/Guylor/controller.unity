@@ -1031,6 +1031,66 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6405987481504921909, guid: d24c0dc1b3ad46d4fbd4cb365859f60e, type: 3}
   m_PrefabInstance: {fileID: 185034883}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &223171701
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.901
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3949885
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.918
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071058
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071078
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2933942682572548202, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5507507549558771553, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      propertyPath: m_Name
+      value: Puzzle_Keypad (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8100854514058793539, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 0}
+  m_SourcePrefab: {fileID: 100100000, guid: 541004e0967d4d2429632346bce2fe93, type: 3}
 --- !u!1001 &240434440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8091,3 +8151,4 @@ SceneRoots:
   - {fileID: 1615050003}
   - {fileID: 100244323}
   - {fileID: 889892401}
+  - {fileID: 223171701}
