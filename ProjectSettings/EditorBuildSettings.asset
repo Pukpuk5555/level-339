@@ -15,15 +15,6 @@ EditorBuildSettings:
     path: Assets/Resources/ThunderWire Studio/UHFPS/Content/Scenes/LevelManager.unity
     guid: e8115f250f482ec4d8ad6ea1dc55e505
   - enabled: 1
-    path: Assets/Puk/Elevator.unity
-    guid: 35d9024f63bea734d80fac3983d4462c
-  - enabled: 1
-    path: Assets/Puk/Playground.unity
-    guid: 37240e82082f5c344bfb51a4caf74d62
-  - enabled: 1
-    path: Assets/Puk/Raining.unity
-    guid: c08bde6cb975e6b419774dfbd37d8c78
-  - enabled: 1
     path: Assets/Puk/AllRoom.unity
     guid: 0b0670d1528833449a7d505152ecca16
   m_configObjects:
