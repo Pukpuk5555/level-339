@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scenes/Raining.unity
     guid: 5d02e5420369bbe42bc168890153f297
   - enabled: 1
-    path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scenes/RoomGuy.unity
+    path: Assets/Scenes/RoomGuy.unity
     guid: 20e4180bc94ef0249b35ee8b641b69ac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
