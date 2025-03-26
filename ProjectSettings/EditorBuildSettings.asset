@@ -9,8 +9,23 @@ EditorBuildSettings:
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
   - enabled: 1
-    path: Assets/Benz/Zombie room.unity
-    guid: eab07a369066dd14d9d3be297aae1b58
+    path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scripts/Content/Scenes/MainMenu.unity
+    guid: 600b46598d843a148a2ea8972c1e318c
+  - enabled: 1
+    path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scripts/Content/Scenes/LevelManager.unity
+    guid: e8115f250f482ec4d8ad6ea1dc55e505
+  - enabled: 0
+    path: Assets/Guylor/controller.unity
+    guid: 13d7d5a2e54f75f4890f0ff8efaffc6d
+  - enabled: 0
+    path: Assets/Guylor/RoomGuy.unity
+    guid: 7a4bf2a5ba35da847b95edd4784fd694
+  - enabled: 0
+    path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scenes/Raining.unity
+    guid: 5d02e5420369bbe42bc168890153f297
+  - enabled: 1
+    path: Assets/Scenes/RoomGuy.unity
+    guid: 20e4180bc94ef0249b35ee8b641b69ac
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
