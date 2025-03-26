@@ -1,8 +1,15 @@
 {
+<<<<<<< HEAD
   "id": "ec654083f3234d45a681df587770d203",
   "scene": "Elevator",
   "dateTime": "2025-03-25 00:27:12",
   "timePlayed": 19.576601,
+=======
+  "id": "40081b61a80d49f1b69d3d86b3427bb0",
+  "scene": "Raining",
+  "dateTime": "2025-03-24 20:41:34",
+  "timePlayed": 7.33260727,
+>>>>>>> main
   "saveType": 2,
   "data": "Data.bin",
   "thumbnail": "Thumbnail.png"
