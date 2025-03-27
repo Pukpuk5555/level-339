@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/OutdoorsScene.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
   - enabled: 1
@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scenes/Raining.unity
     guid: 5d02e5420369bbe42bc168890153f297
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/RoomGuy.unity
     guid: 20e4180bc94ef0249b35ee8b641b69ac
+  - enabled: 1
+    path: Assets/Kikie/Elevator.unity
+    guid: 269f693009c1d7043bcb3909b0ebecb1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
