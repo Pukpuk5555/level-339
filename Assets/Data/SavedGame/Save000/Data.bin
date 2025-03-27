@@ -1,10 +1,19 @@
 {
+<<<<<<< HEAD
   "id": "ec654083f3234d45a681df587770d203",
   "playerData": {
     "position": {
       "x": 0.0,
       "y": 1.0,
       "z": -3.7
+=======
+  "id": "40081b61a80d49f1b69d3d86b3427bb0",
+  "playerData": {
+    "position": {
+      "x": 25.0,
+      "y": 0.0,
+      "z": 3.0
+>>>>>>> main
     },
     "rotation": {
       "x": 0.0,
@@ -54,6 +63,7 @@
   },
   "worldState": {
     "worldSaveables": {
+<<<<<<< HEAD
       "TimedInteractEvent.6d06fdd916bcd744bbf3094457a57b28": {
         "interactOnce": false,
         "isInteractTimed": false
@@ -113,6 +123,14 @@
           "y": 5.15903121E-05,
           "z": 0.0
         }
+=======
+      "TimedInteractEvent.1b3996f04be31d8429b48acfe7037a55": {
+        "interactOnce": false,
+        "isInteractTimed": false
+      },
+      "RainingSet.9624f65941c00014e96cea638381dd6e": {
+        "raining": true
+>>>>>>> main
       }
     },
     "runtimeSaveables": {}
