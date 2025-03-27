@@ -1,13 +1,13 @@
 {
-  "id": "40081b61a80d49f1b69d3d86b3427bb0",
+  "id": "16c8197905a74f269cc20166bd6d5123",
   "playerData": {
     "position": {
-      "x": 25.0,
-      "y": 0.0,
-      "z": 3.0
+      "x": 3.7,
+      "y": 1.0,
+      "z": 0.0
     },
     "rotation": {
-      "x": 0.0,
+      "x": 270.0,
       "y": 0.0
     },
     "localData": {
@@ -54,12 +54,65 @@
   },
   "worldState": {
     "worldSaveables": {
-      "TimedInteractEvent.1b3996f04be31d8429b48acfe7037a55": {
+      "TimedInteractEvent.6d06fdd916bcd744bbf3094457a57b28": {
         "interactOnce": false,
         "isInteractTimed": false
       },
-      "RainingSet.9624f65941c00014e96cea638381dd6e": {
-        "raining": true
+      "ElevatorSystem.689e4f57f45cd7b459f862c2b877c802": {
+        "floor": 2
+      },
+      "DraggableItem.efd33ed35fb3b804288bf41d2658ebc0": {
+        "position": {
+          "x": -4.539,
+          "y": -57.1664963,
+          "z": -0.421
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 319.823547,
+          "z": 0.0
+        }
+      },
+      "SaveableObject.457e213bcb2a54c46bfd08fde9c8c23d": {
+        "position": {
+          "x": 0.0,
+          "y": -29.0,
+          "z": -2.0
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "TimedInteractEvent.6b7f2241e80b2204ba059bec6f8fa36e": {
+        "interactOnce": false,
+        "isInteractTimed": false
+      },
+      "NPCHealth.1c0ade62ed13a354a9c7e09fd94112b8": {
+        "position": {
+          "x": -22.1589947,
+          "y": -58.9676666,
+          "z": 5.2604804
+        },
+        "rotation": {
+          "x": 0.0,
+          "y": 352.2648,
+          "z": 0.0
+        },
+        "health": 100
+      },
+      "DraggableItem.8e6b10b63b36a5a4687bece42ecbc859": {
+        "position": {
+          "x": -4.617,
+          "y": -57.1664963,
+          "z": -0.15700005
+        },
+        "rotation": {
+          "x": 270.0,
+          "y": 5.15903121E-05,
+          "z": 0.0
+        }
       }
     },
     "runtimeSaveables": {}
