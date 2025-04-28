@@ -75,7 +75,7 @@ MonoBehaviour:
     m_Value: 0.5
   aerosolTint:
     m_OverrideState: 0
-    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_Value: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 0
     m_Value: 8289.296
@@ -294,7 +294,7 @@ MonoBehaviour:
       m_Value: 0
     tint:
       m_OverrideState: 0
-      m_Value: {r: 1, g: 1, b: 1, a: 1}
+      m_Value: {r: 0.5283019, g: 0.0074759563, b: 0.0074759563, a: 1}
     exposure:
       m_OverrideState: 0
       m_Value: 0
