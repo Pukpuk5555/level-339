@@ -1,8 +1,14 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Resources/ThunderWire Studio/UHFPS/_Demo/Scenes/Elevator/Trace.meta
 guid: ee098e81ab49b6c45afb58f4dcbfe98c
 folderAsset: yes
 DefaultImporter:
+========
+guid: 1953dc50e81e3da4f8c40216e24d8c85
+NativeFormatImporter:
+>>>>>>>> Hallway:Assets/Scenes/Kikie/Elevator/Sky and Fog Settings 2.asset.meta
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -163,7 +163,7 @@ namespace UHFPS.Runtime
             }
 
             // player death event
-            if(currentState != null && !IsPlayerDead && PlayerHealth.IsDead)
+            if (currentState != null && !IsPlayerDead && PlayerHealth.IsDead)
             {
                 currentState.Value.FSMState.OnPlayerDeath();
                 IsPlayerDead = true;
@@ -188,8 +188,18 @@ namespace UHFPS.Runtime
         {
             Vector3 target = Agent.steeringTarget;
             Vector3 direction = (target - transform.position).normalized;
-            Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
-            transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, lookRotation, Time.deltaTime * SteeringSpeed);
+
+            // ??????????????????????????????? Vector3.zero
+            if (direction != Vector3.zero)
+            {
+                Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));
+                transform.rotation = Quaternion.SlerpUnclamped(transform.rotation, lookRotation, Time.deltaTime * SteeringSpeed);
+            }
+            else
+            {
+                // ??????????????????????????????
+                Debug.LogWarning("Target direction is zero, rotation skipped.");
+            }
         }
 
         /// <summary>
@@ -319,7 +329,7 @@ namespace UHFPS.Runtime
 
         private void OnDrawGizmos()
         {
-            if (!ShowDestination || !Application.isPlaying) 
+            if (!ShowDestination || !Application.isPlaying)
                 return;
 
             Vector3 targetPosition = Agent.destination;
