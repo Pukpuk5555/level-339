@@ -54,8 +54,7 @@ MonoBehaviour:
     m_Value: 0
   material:
     m_OverrideState: 0
-    m_Value: {fileID: -876546973899608171, guid: 02532cbb810fb404db49da84f1efe41e,
-      type: 3}
+    m_Value: {fileID: -876546973899608171, guid: 02532cbb810fb404db49da84f1efe41e, type: 3}
   airDensityR:
     m_OverrideState: 0
     m_Value: 0.04534
@@ -76,7 +75,7 @@ MonoBehaviour:
     m_Value: 0.5
   aerosolTint:
     m_OverrideState: 0
-    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_Value: {r: 0.8584906, g: 0.8584906, b: 0.8584906, a: 1}
   aerosolMaximumAltitude:
     m_OverrideState: 0
     m_Value: 8289.296
@@ -144,6 +143,52 @@ MonoBehaviour:
   planetCenterPosition:
     m_OverrideState: 0
     m_Value: {x: 0, y: -6378100, z: 0}
+--- !u!114 &-6719187781865849766
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24f077503be6ae942a1e1245dbd53ea9, type: 3}
+  m_Name: Bloom
+  m_EditorClassIdentifier: 
+  active: 1
+  quality:
+    m_OverrideState: 0
+    m_Value: 1
+  threshold:
+    m_OverrideState: 1
+    m_Value: 0.83
+  intensity:
+    m_OverrideState: 1
+    m_Value: 1
+  scatter:
+    m_OverrideState: 1
+    m_Value: 0.28
+  tint:
+    m_OverrideState: 1
+    m_Value: {r: 0.254717, g: 0.07390047, b: 0.051664297, a: 1}
+  dirtTexture:
+    m_OverrideState: 0
+    m_Value: {fileID: 0}
+  dirtIntensity:
+    m_OverrideState: 0
+    m_Value: 0
+  anamorphic:
+    m_OverrideState: 0
+    m_Value: 1
+  m_Resolution:
+    m_OverrideState: 0
+    m_Value: 2
+  m_HighQualityPrefiltering:
+    m_OverrideState: 0
+    m_Value: 0
+  m_HighQualityFiltering:
+    m_OverrideState: 0
+    m_Value: 1
 --- !u!114 &-5494225358039326914
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -249,7 +294,7 @@ MonoBehaviour:
       m_Value: 0
     tint:
       m_OverrideState: 0
-      m_Value: {r: 1, g: 1, b: 1, a: 1}
+      m_Value: {r: 0.5283019, g: 0.0074759563, b: 0.0074759563, a: 1}
     exposure:
       m_OverrideState: 0
       m_Value: 0
@@ -523,6 +568,7 @@ MonoBehaviour:
   - {fileID: -4103857816216381860}
   - {fileID: -96767703793317210}
   - {fileID: 689283090839783609}
+  - {fileID: -6719187781865849766}
 --- !u!114 &689283090839783609
 MonoBehaviour:
   m_ObjectHideFlags: 3
