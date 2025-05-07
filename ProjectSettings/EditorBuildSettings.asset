@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/LabRoom/LabRoom_Puk.unity
     guid: 343b31e5e2094c843b9973a9aae5f58e
+  - enabled: 1
+    path: Assets/LabRoom/Lab2.unity
+    guid: 3f274199ee81ecd4d936bd6c0c973718
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 35845fe01580c41289b024647b1d1c53, type: 3}
   m_UseUCBPForAssetBundles: 0
